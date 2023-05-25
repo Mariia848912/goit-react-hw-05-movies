@@ -1,4 +1,6 @@
+import { Error } from "./ErrorText.styled";
+
 export const ErrorText = () =>
-    <p>
+    <Error>
         Whoops, something went wrong. Try later
-    </p>
+    </Error>

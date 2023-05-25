@@ -91,9 +91,11 @@ const MovieDetails = () => {
             <Outlet />
           </Suspense>
 
-          {error && <ErrorText />}
+         
         </Section>
+        
       )}
+       {error && <ErrorText />}
     </Container>
   );
 };
